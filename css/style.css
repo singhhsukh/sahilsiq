@@ -877,6 +877,11 @@ ol {
 	margin-top: 30px;
 }
 
+.footer-option .fo-logo img {
+    display: block;
+    width: 172px; 
+	}
+
 .footer-option ul {
 	margin-bottom: 12px;
 }
@@ -1685,8 +1690,8 @@ ol {
 }
 
 .visual-section .bg-media {
-    width: 100%;
-    height: 1000px;
+    width: inherit;
+    height: auto;
     position: center;
     object-fit: center;
     z-index: 0;
@@ -1844,6 +1849,14 @@ ol {
 	}
 	.bg-media {
 		display: none;
+	}
+	.logo a {
+		height:100px;
+		width:150px;
+	}
+	.set-mobile-bg {
+		height:auto;
+		width:fit-content;
 	}
 }
 
